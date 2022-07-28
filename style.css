@@ -1,0 +1,426 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: LatoWeb,sans-serif;
+}header{
+    z-index: 100;
+    background-color: #292929;
+    position: sticky;
+    top: 0;
+}.topbackfiller{
+    background-color: #292929;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+}
+.top{
+    width: 62%;
+    display: flex;
+    align-items: center;
+    background-color: #292929;
+}.top p{
+    padding-right: 35px;
+    margin: 1px;
+    color: #b7b7b7;
+    font-size: 12px;
+}.top p:hover{
+    color: white;
+    cursor: pointer;
+}
+.center{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    
+}.center .Container{
+    padding-left: 19%;
+    width: 62%;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+.center .tcslogo{
+    width: 100%;
+    height: 36px;
+}.center .tcslogo:hover{
+    cursor: pointer;
+}.center .nav{
+    display: flex;
+    align-items: center;
+}.center a{
+    padding-left: 25px;
+    padding-right: 14px;
+    text-decoration: none;
+    color: #a1a1a1;
+    font-size: 13px
+}.center .second{
+    width: 20px;
+    height: 20px;
+    padding-left: 27px;
+}.center .second:hover{
+    cursor: pointer;
+}.center .third{
+    width: 37px;
+    height: 58px;
+    padding-left: 27px;
+}.center .third:hover{
+    cursor: pointer;
+}.ContactButton{
+    background-color: black;
+    justify-content: end;
+}.check:hover{
+    cursor: pointer;
+}.check{
+    padding: 8px 36px;   
+}.ContactButton .Container{
+    width: 81%;
+    justify-content: right;
+}
+
+.Container1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.snapshots{
+    width: 90%;
+    align-items: center;
+    background-color: black;
+    color: white;
+}.snapshots h5{
+    margin: 0;
+    font-size: 16px;
+    color: #ebebeb;
+}
+
+
+.roundimages{
+    display: flex;
+    background-color: black;
+    padding-top: 18px;
+    padding-bottom: 38px;
+    align-items: center;
+    justify-content: space-around;
+}.roundbutton1{
+    padding: 32px;
+    border-radius: 50%;;
+    border-width: 2px;
+    border-color: white;
+}.roundpara{
+    color: aliceblue;
+}#round1{
+    background-image: url(f-jaguar-1.png);
+    background-size: 85px auto;
+}#round2{
+    background-image: url(f-talent-cloud-2.png);
+    background-size: 85px auto;
+}#round3{
+    background-image: url(f-parcel-3.png);
+    background-size: 85px auto;
+}#round4{
+    background-image: url(f-go-digital-4.png);
+    background-size: 85px auto;
+}#round5{
+    background-image: url(f-pace-pit-5.png);
+    background-size: 85px auto;
+}#round6{
+    background-image: url(f-neuro-6.png);
+    background-size: 85px auto;
+}.rounditems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.rounditems:hover{
+    cursor: pointer;
+}.roundbutton1:hover{
+    cursor: pointer;
+}
+
+
+
+.sizeimage{
+    width: 100%;
+    object-fit:contain;
+    display: block;
+}.imageCContainer{
+    position: absolute;
+    width: 55%;
+    top: 29%;
+    left: 10%;
+}.sliderImages {
+    position: relative;
+    color: white;
+}.imageCContainer .heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    margin: 15px;
+}
+.imageCContainer p{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin: 15px;
+}
+.imageCContainer button{
+    padding: 10px 60px;
+    font-size: 17px;
+    margin: 15px;
+    border-radius: 10px;
+    color: #d63677;
+}.imageCContainer button:hover{
+    cursor: pointer;
+}
+
+
+
+
+.SpotlightContainer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}.Container2{
+    width: 82%;
+}
+.SpotlightContainer .Container2 h2{
+    color: white;
+    padding-top: 50px;
+    font-size: 45px;
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+
+.FourthContainer{
+    
+    background-color: black;
+    display: flex;
+    padding-bottom: 90px;
+    justify-content: space-around;
+}.fourthwidth{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.FourthSubitem1{
+    width: 410px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111111;
+}.FourthSubitem1:hover{
+    cursor: pointer;
+}.fourthcontentwidth{
+    width: 75%;
+}
+.fourthcontentwidth .firstletter{
+    color: white;
+    margin: 5;
+    font-size: 11px;
+}.fourthcontentwidth .secondletter{
+    color: white;
+    margin: 0;
+    font-size: 21px;
+    font-weight: normal;
+}.fourthcontentwidth .thirdletter{
+    color: white;
+    margin: 5;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.FourthSubimage{
+    width: 100%;
+    height: 344px;
+    object-fit: cover;
+}
+
+
+
+
+.InsightContainer{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}.Containerinsight{
+    width: 75%;
+}
+.InsightContainer .Containerinsight h2{
+    color: black;
+    padding-top: 50px;
+    font-size: 45px;
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+
+
+
+.FifthContainer{
+    background-color: white;
+    display: flex;
+    padding-bottom: 75px;
+    justify-content: space-around;
+}
+.widthadjuster{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.FifthSubitem1{
+    width: 364px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 1px 7px 0 rgb(0 0 0 / 19%); 
+    background-color: white;
+    transition: all 0.2s;
+}.FifthSubitem1:hover{
+    box-shadow: 1px 1px 40px -10px #77797c;
+    cursor: pointer;
+}.FifthSubitem1 p{
+    margin-top: 5px;
+    color: #474747;
+    padding-top: 9px;
+    font-size: 12px;
+}
+.FifthSubitem1 h3{
+    color: #474747;
+    margin-top: -5px;
+    margin-bottom: 80px;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+
+
+
+.SixthContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 43px;
+}
+.SixthSubitem1{
+    width: 364px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 10px -5px #77797c;
+    border-color:black;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-grow: 1;
+    padding-bottom: 75px;
+    transition: all 0.2s;
+}.SixthSubitem1:hover{
+    box-shadow: 1px 1px 40px -10px #77797c;
+}.SixthSubitem1 h3{
+    color: #20648e;
+    font-weight: normal;
+    font-size: 22px;
+    margin: 12px;
+}.SixthSubitem1 p{
+    font-style: italic;
+    color: #474747;
+    margin: 0;
+    font-size: 15px;
+    padding-bottom: 75px;
+}
+.SixthSubimage{
+    width: 491px;
+    height: 250px;
+    margin-top: 22px;
+    object-fit: cover;
+}
+
+
+
+footer{
+    background-color:#474747;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}.footerContainer{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    align-items: start;
+    justify-content: center;
+    width: 72%;
+}.footerItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 20px;
+}.footerItems a{
+    text-decoration: none;
+    color: #DADADA;
+    font-size: 10px;
+    margin: 5px;
+    transition: all 0.2s;
+}.footerItems a:hover{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+.footerItems h3{
+    
+    color: #DADADA;
+}.footerItems h4{
+    margin: 0;
+    color: #DADADA;
+}.footerItems h5{
+    margin: 5px;
+    color: #DADADA;
+}.funimage{
+    display: block;
+}
+
+.footerimageCContainer{
+    position: absolute;
+    width: 55%;
+    top: 7%;
+    left: 7%;
+}.sliderImages {
+    position: relative;
+    color: white;
+}.footerimageCContainer .heading{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 15px;
+    padding-bottom: 20px;
+}
+.footerimageCContainer .Middleheading{
+    font-size: 30px;;
+    font-weight: normal;
+    margin: 15px;
+    padding-bottom: 20px;
+}
+.footerimageCContainer .Lastheading{
+    font-size: 25px;
+    font-weight: normal;
+    margin: 15px;
+    padding-bottom: 60px;
+}
+.footerimageCContainer button{
+    padding: 10px 130px;
+    font-weight: normal;
+    margin: 15px;
+    background-color: #ffffff;
+    color: #d63677;
+    border-radius: 8px;
+}.footerimageCContainer button:hover{
+    cursor: pointer;
+}.footerContainer1{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 75px;
+    align-items: start;
+    width: 63%;
+}.footerContainer1 p{
+    color: #DADADA;
+    font-size: 13px;
+}
